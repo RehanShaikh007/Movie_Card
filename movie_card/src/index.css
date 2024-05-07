@@ -1,0 +1,42 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+ /* border: 2px solid black; */
+ padding: 1%;
+ margin: 5% 10%;
+ border-radius: 40px;
+ background-color: rgb(0, 0, 0);
+ color: white;
+}
+
+.one{
+  /* border: 2px solid red; */
+  display: flex;
+}
+
+.one_left{
+  /* border: 2px solid blue; */
+  padding: 1%;
+
+}
+.one_left img{
+  width: 150px;
+}
+.one_right{
+  /* border: 2px solid violet; */
+  padding: 1% 1% 1% 2%;
+  line-height: 2em;
+}
+.two{
+  /* border: 2px solid brown; */
+  padding: 1%;
+  width: 90%;
+}
